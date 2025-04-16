@@ -27,13 +27,4 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <SpecFlowFeatureFiles Remove="Features\Example.feature" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Remove="Features\Example.feature.cs" />
-      <Compile Remove="Steps\Example.cs" />
-    </ItemGroup>
-
 </Project>
